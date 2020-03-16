@@ -1,6 +1,6 @@
 class Solution {
     public int[] solution(int[] heights) {
-        int[] answer = new int[heights.length]; // 0À¸·Î ¸ðµÎ ÃÊ±âÈ­µÈ´Ù.
+        int[] answer = new int[heights.length]; // 0ìœ¼ë¡œ ëª¨ë‘ ì´ˆê¸°í™”ëœë‹¤.
         int length = heights.length;
         for (int i = (length-1); i >= 0; i--){
             int value = heights[i];
